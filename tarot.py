@@ -4,8 +4,10 @@ class Card(object):
         self.suit = suit
         self.value = value
         self.description = description
+
+
 cards = [
-	Card("The Joker","jokers",1,"innocence, spontenaiety"),
+    Card("The Joker","jokers",1,"innocence, spontenaiety"),
     Card("The Magician", "jokers", 2,"power, resourcefulness"),
     Card("The High Priestess", "jokers", 3, "intuition, subconscious"),
     Card("The Empress","jokers",4,"nature, abudance"),
@@ -69,11 +71,23 @@ cards = [
     Card("Knight of Cups","cups",12,"romance"),
     Card("Queen of Cups","cups",13,"compassion, intuition"),
     Card("King of Cups","cups",14,"diplomatic, emotionally balanced")
+    Card("Ace of Wands","wands",1,"growth, potential"),
+    Card("Two of Wands","wands",2,"plans,decisions"),
+    Card("Three of Wands","wands",3,"progress, expansion"),
+    Card("Four of Wands","wands",4,"celebration, joy"),
+    Card("Five of Wands","wands",5,"conflict"),
+    Card("Six of Wands","wands",6,"success"),
+    Card("Seven of Wands","wands",7,"challenge, protection"),
+    Card("Eight of Wands","wands",8,"movement, travel"),
+    Card("Nine of Wands","wands",9,"resilience, courage"),
+    Card("Ten of Wands","wands",10,"burden, hard work, completion"),
+    Card("Page of Wands","wands",11,"inspiration"),
+    Card("Knight of Wands","wands",12,"energy, passion"),
+    Card("Queen of Wands","wands",13,"determination, independence"),
+    Card("King of Wands","wands",14,"vision, leadership")
 ]
 
-
 import random
-random.shuffle(cards)
 print(cards[0].name)
 print(cards[0].description)
 
