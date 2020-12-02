@@ -89,6 +89,7 @@ cards = [
 
 import random
 random.shuffle(cards)
+
 print(cards[0].name)
 print(cards[0].description)
 
