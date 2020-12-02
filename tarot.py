@@ -70,7 +70,7 @@ cards = [
     Card("Page of Cups","cups",11,"creativity"),
     Card("Knight of Cups","cups",12,"romance"),
     Card("Queen of Cups","cups",13,"compassion, intuition"),
-    Card("King of Cups","cups",14,"diplomatic, emotionally balanced")
+    Card("King of Cups","cups",14,"diplomatic, emotionally balanced"),
     Card("Ace of Wands","wands",1,"growth, potential"),
     Card("Two of Wands","wands",2,"plans,decisions"),
     Card("Three of Wands","wands",3,"progress, expansion"),
