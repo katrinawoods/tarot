@@ -143,9 +143,6 @@ elif astro_sign == 'Aquarius':
 import random
 random.shuffle(cards)
 
-print
-print()
-
 print(astro_card + " channels " + astro_sign + " energy into the deck.")
 
 print("Your Tarot card for today is the " + cards[0].name + ": " + cards[0].description)
